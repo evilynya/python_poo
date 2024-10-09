@@ -6,7 +6,6 @@ class Personagem:
     def atacar(self):
         print(f"{self._nome} está atacando!")
 
-    
 class Jogador(Personagem):
     def __init__(self, nome, raca, inventario, vida=5):
         super().__init__(nome, vida)
